@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia de San Valentín</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            color: black; /* Color de texto en negro */
+            height: 100vh; /* Aseguramos que ocupe toda la pantalla */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Centrar contenido */
+        }
+        header {
+            background-color: #ff3366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #ff3366;
+        }
+        footer {
+            background-color: #ff3366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        /* Botón con forma de corazón y centrado */
+        .heart-button {
+            display: inline-block;
+            padding: 20px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #ff3366;
+            border: none;
+            border-radius: 50%;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            position: absolute;
+            left: 50%;
+            bottom: 50px; /* Ajustar para que el botón esté más abajo */
+            transform: translateX(-50%) scale(1); /* Centrado y tamaño */
+        }
+        .heart-button:hover {
+            background-color: #ff4d80;
+            transform: translateX(-50%) scale(1.1); /* Efecto al pasar el ratón */
+        }
+        .heart-button span {
+            font-size: 24px;
+            position: relative;
+            top: 4px;
+        }
+        .heart-button::before {
+            content: '❤️';
+            font-size: 28px; /* Tamaño del corazón */
+            position: absolute;
+            left: 10px;
+            top: -4px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>La Historia de San Valentín</h1>
+</header>
+
+<section>
+    <h2>Origen Romano</h2>
+    <p>El Día de San Valentín tiene sus raíces en la antigua Roma. En el siglo III, el emperador Claudio II prohibió los matrimonios entre jóvenes, pensando que los solteros eran mejores soldados. Sin embargo, un sacerdote llamado Valentín desobedeció esta orden y continuó celebrando matrimonios en secreto. Fue arrestado y ejecutado el 14 de febrero del año 269.</p>
+</section>
+
+<section>
+    <h2>Evolución y Tradición</h2>
+    <p>Con el tiempo, el Día de San Valentín se asoció con el amor romántico. En la Edad Media, el poeta Geoffrey Chaucer ayudó a popularizar la idea de que el 14 de febrero era un día especial para el amor, ya que era considerado el día en que las aves se emparejaban.</p>
+</section>
+
+<section>
+    <h2>La Celebración Hoy en Día</h2>
+    <p>Hoy en día, San Valentín es una festividad globalmente celebrada, especialmente entre parejas que intercambian flores, chocolates y tarjetas. También es un día para expresar cariño y aprecio hacia amigos y seres queridos.</p>
+</section>
+
+
+<a href="adios.html" class="heart-button" target="_blank">
+    Ir a otra página
+    <span>&#8594;</span> 
+</a>
+
+<footer>
+    <p>&copy; 2025 Historia de San Valentín</p>
+</footer>
+
+</body>
+</html>
